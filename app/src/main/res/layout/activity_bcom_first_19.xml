@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acti_Ug_Paper.Bcom_first_19">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/Subject_Name_Layout">
+        <Button
+            android:id="@+id/button12"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Accontancy and business statics\n(Financial Accounting)\nI"
+            app:layout_constraintEnd_toStartOf="@+id/button13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button13"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Accontancy and business statics\n(bussiness statics)\nII"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button12"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button14"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Bussiness administration\n(Business law)\nI"
+            app:layout_constraintEnd_toStartOf="@+id/button15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button12" />
+        <Button
+            android:id="@+id/button15"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Bussiness administration\n(Business communicates)\nII"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button14"
+            app:layout_constraintTop_toBottomOf="@+id/button13" />
+        <Button
+            android:id="@+id/button16"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Economic administrator\nand\nfinance managment\n(Economic Environment in India)\nI"
+            app:layout_constraintEnd_toStartOf="@+id/button17"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button14" />
+        <Button
+            android:id="@+id/button17"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Economic administrator\nand\nfinance managment\n(Business communicates)\nII"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button16"
+            app:layout_constraintTop_toBottomOf="@+id/button15" />
+        <Button
+            android:id="@+id/button18"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="English\nCompulsory"
+            app:layout_constraintEnd_toStartOf="@+id/button19"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button16" />
+        <Button
+            android:id="@+id/button19"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Hindi\nCompulsory"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button18"
+            app:layout_constraintTop_toBottomOf="@+id/button17" />
+        <Button
+            android:id="@+id/button20"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Environmental\nStudies"
+            app:layout_constraintEnd_toStartOf="@+id/button21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button18" />
+        <Button
+            android:id="@+id/button21"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Computer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button20"
+            app:layout_constraintTop_toBottomOf="@+id/button19" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

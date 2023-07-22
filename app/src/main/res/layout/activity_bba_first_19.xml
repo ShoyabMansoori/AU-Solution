@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acti_Prof_Paper.Bba_first_19">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/Subject_Name_Layout">
+        <Button
+            android:id="@+id/button12"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Basic Computer\nApplication"
+            app:layout_constraintEnd_toStartOf="@+id/button13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button13"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Business and\nmanagment\nConcepts"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button12"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button14"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Business\nlaws"
+            app:layout_constraintEnd_toStartOf="@+id/button15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button12" />
+        <Button
+            android:id="@+id/button15"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Business\nMathematics"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button14"
+            app:layout_constraintTop_toBottomOf="@+id/button13" />
+        <Button
+            android:id="@+id/button014"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="English\nComprehension"
+            app:layout_constraintEnd_toStartOf="@+id/button015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button14" />
+        <Button
+            android:id="@+id/button015"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Financial\nAccounting"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button014"
+            app:layout_constraintTop_toBottomOf="@+id/button15" />
+        <Button
+            android:id="@+id/button0014"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Fundamentals\nof\nEntrepreneurship"
+            app:layout_constraintEnd_toStartOf="@+id/button0015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button014" />
+        <Button
+            android:id="@+id/button0015"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Human resource\nmanagment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button0014"
+            app:layout_constraintTop_toBottomOf="@+id/button015" />
+        <Button
+            android:id="@+id/button00014"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Managment\neconomics"
+            app:layout_constraintEnd_toStartOf="@+id/button00015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button0014" />
+        <Button
+            android:id="@+id/button00015"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Environmental\nStudies"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button00014"
+            app:layout_constraintTop_toBottomOf="@+id/button0015" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

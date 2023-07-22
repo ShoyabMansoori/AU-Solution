@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0066CC</color>     // au solution ki patti ka colour
+    <color name="colorPrimaryDark">#0066CC</color> // timeing bar and button ka colour(Logo colour)
+    <color name="colorAccent">#0037FF</color>    // sallabus link ka colour
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light">#E1E1E1</color>
+    <color name="logo_colour">#0066CC</color>
+    <color name="light_black">#A1A1A1</color>
+    <color name="light_black0">#787878</color>
+    <color name="gray">#F4F4F4</color>
+</resources>

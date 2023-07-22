@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acti_Ug_Paper.Bcom_second_18">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/Subject_Name_Layout">
+        <Button
+            android:id="@+id/button12"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Accountancy and\nbusiness statistics\n(Income tex law\nand accounts)\nPaper I"
+            app:layout_constraintEnd_toStartOf="@+id/button13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button13"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Accountancy and\nbusiness statistics\n(Cost Accounting)\n(Corporate Accounting)\n(Computer Application\nin Business)\nPaper II"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button12"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button14"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Business Administration\n(Company Law and\nSecretarial Prectice)\nPaper I"
+            app:layout_constraintEnd_toStartOf="@+id/button15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button12" />
+        <Button
+            android:id="@+id/button15"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Business Administration\n(Fundamental of Entrepreneurship)\n(Human Resource Managment)\n(Retail Business Managment)\nPaper II"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button14"
+            app:layout_constraintTop_toBottomOf="@+id/button13" />
+        <Button
+            android:id="@+id/button16"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Economic Administration\nand Financal Managment\n(Financial Managment)\nPaper I"
+            app:layout_constraintEnd_toStartOf="@+id/button17"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button14" />
+        <Button
+            android:id="@+id/button17"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Economic Administration\n(Money and Financial System)\n(Project Plannung and Control)\n(Rural Banking and Microfinance)\nPaper II"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button16"
+            app:layout_constraintTop_toBottomOf="@+id/button15" />
+        <Button
+            android:id="@+id/button18"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="English\nCompulsory"
+            app:layout_constraintEnd_toStartOf="@+id/button19"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button16" />
+        <Button
+            android:id="@+id/button19"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Hindi\nCompulsory"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button18"
+            app:layout_constraintTop_toBottomOf="@+id/button17" />
+        <Button
+            android:id="@+id/button20"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Environmental\nStudies"
+            app:layout_constraintEnd_toStartOf="@+id/button21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button18" />
+        <Button
+            android:id="@+id/button21"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Computer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button20"
+            app:layout_constraintTop_toBottomOf="@+id/button19" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UG_practical_files.BSC_file_main">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/Subject_Name_Layout">
+        <Button
+            android:id="@+id/button111"
+            style="@style/Files_YearName_TextView"
+            android:text="BSC 1 year files"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button0111"
+            style="@style/Files_YearName_TextView"
+            android:text="BSC 2 year files"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button00120" />
+
+        <Button
+            android:id="@+id/button0112"
+            style="@style/Files_YearName_TextView"
+            android:text="BSC 3 year files"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button00122" />
+
+        <Button
+            android:id="@+id/button120"
+            style="@style/File"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bsc_file_physics"
+            app:layout_constraintEnd_toStartOf="@+id/button121"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button111"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button121"
+            style="@style/File"
+            android:background="@drawable/bsc_file_chemistory"
+            app:layout_constraintBottom_toBottomOf="@+id/button120"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button120"
+            app:layout_constraintTop_toTopOf="@+id/button120"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button0120"
+            style="@style/File"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bsc_file_mathematics"
+            app:layout_constraintEnd_toStartOf="@+id/button0121"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button120"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button00120"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bsc_file_botany"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button0120"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button0121"
+            style="@style/File"
+            android:background="@drawable/bsc_file_zoology"
+            app:layout_constraintBottom_toBottomOf="@+id/button0120"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button0120"
+            app:layout_constraintTop_toTopOf="@+id/button0120"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <Button
+            android:id="@+id/button122"
+            style="@style/File"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bsc_file_mathematics"
+            app:layout_constraintEnd_toStartOf="@+id/button123"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button0122" />
+
+        <Button
+            android:id="@+id/button123"
+            style="@style/File"
+            android:background="@drawable/bsc_file_zoology"
+            app:layout_constraintBottom_toBottomOf="@+id/button122"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button122"
+            app:layout_constraintTop_toTopOf="@+id/button122"
+            app:layout_constraintVertical_bias="0.0" />
+        <Button
+            android:id="@+id/button0122"
+            style="@style/File"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bsc_file_physics"
+            app:layout_constraintEnd_toStartOf="@+id/button123"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button0111" />
+        <Button
+            android:id="@+id/button0123"
+            style="@style/File"
+            android:background="@drawable/bsc_file_chemistory"
+            app:layout_constraintBottom_toBottomOf="@+id/button0122"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button0122"
+            app:layout_constraintTop_toTopOf="@+id/button0122"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button00122"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bsc_file_botany"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button122" />
+
+        <Button
+            android:id="@+id/button124"
+            style="@style/File"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bsc_file_physics"
+            app:layout_constraintEnd_toStartOf="@+id/button125"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button0112" />
+
+        <Button
+            android:id="@+id/button125"
+            style="@style/File"
+            android:background="@drawable/bsc_file_chemistory"
+            app:layout_constraintBottom_toBottomOf="@+id/button124"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button124"
+            app:layout_constraintTop_toTopOf="@+id/button124"
+            app:layout_constraintVertical_bias="0.0" />
+        <Button
+            android:id="@+id/button126"
+            style="@style/File"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bsc_file_mathematics"
+            app:layout_constraintEnd_toStartOf="@+id/button127"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button124" />
+
+        <Button
+            android:id="@+id/button127"
+            style="@style/File"
+            android:background="@drawable/bsc_file_zoology"
+            app:layout_constraintBottom_toBottomOf="@+id/button126"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button126"
+            app:layout_constraintTop_toTopOf="@+id/button126"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button128"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bsc_file_botany"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button126" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

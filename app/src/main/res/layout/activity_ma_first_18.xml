@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acti_Pg_Paper.Ma_first_18">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/Subject_Name_Layout">
+        <Button
+            android:id="@+id/button12"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="economics\n(MICROECONOMIC ANALYSIS)\nI"
+            app:layout_constraintEnd_toStartOf="@+id/button13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button13"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="economics\n(MACROECONOMIC ANALYSIS)\nII"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button12"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button14"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="economics\n(QUANTITATIVE\nMETHODS)\nIII"
+            app:layout_constraintEnd_toStartOf="@+id/button15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button12" />
+        <Button
+            android:id="@+id/button15"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="economics\n(ECONOMIC POLICY)\nIV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button14"
+            app:layout_constraintTop_toBottomOf="@+id/button13" />
+        <Button
+            android:id="@+id/button16"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="GEOGRAPHY\n(Evolution of\nGeographical Thought)\nI"
+            app:layout_constraintEnd_toStartOf="@+id/button17"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button14" />
+        <Button
+            android:id="@+id/button17"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="GEOGRAPHY\n(Advanced Physical Geography)\nII"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button16"
+            app:layout_constraintTop_toBottomOf="@+id/button15" />
+        <Button
+            android:id="@+id/button18"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="GEOGRAPHY\n(Principles and\nTheory of\nEconomic Geography)\nIII"
+            app:layout_constraintEnd_toStartOf="@+id/button19"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button16" />
+        <Button
+            android:id="@+id/button19"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="GEOGRAPHY\n((a) Geography of Environment)\nIV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button18"
+            app:layout_constraintTop_toBottomOf="@+id/button17" />
+        <Button
+            android:id="@+id/button20"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="GEOGRAPHY\n((b) Quantitative\nTechniques\nin Geography)\nV"
+            app:layout_constraintEnd_toStartOf="@+id/button21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button18" />
+        <Button
+            android:id="@+id/button21"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="History\n(Historiography)\nI"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button20"
+            app:layout_constraintTop_toBottomOf="@+id/button19" />
+        <Button
+            android:id="@+id/button22"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="History\n(Twentieth Century World)\nII"
+            app:layout_constraintEnd_toStartOf="@+id/button23"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button20" />
+        <Button
+            android:id="@+id/button23"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="History\nOptional Paper (a)History of India\n(Earliest Times\nto (78 A.D.)\nIII"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button22"
+            app:layout_constraintTop_toBottomOf="@+id/button21" />
+        <Button
+            android:id="@+id/button24"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="History\nOptional Paper (b) History of India (1200 to 1526 A.D.)\nIV"
+            app:layout_constraintEnd_toStartOf="@+id/button25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button22" />
+        <Button
+            android:id="@+id/button25"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="History\nOptional Paper (c) History of India (1761 to 1857A.D.)\nV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button24"
+            app:layout_constraintTop_toBottomOf="@+id/button23" />
+        <Button
+            android:id="@+id/button26"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="History\n(a) History of India (78 A.D. to 650 A.D.)\nVI"
+            app:layout_constraintEnd_toStartOf="@+id/button27"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button24" />
+        <Button
+            android:id="@+id/button27"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="History\n(b)History of India(1526 to 1656 A.D.)\nVII"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button26"
+            app:layout_constraintTop_toBottomOf="@+id/button25" />
+        <Button
+            android:id="@+id/button28"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="PUBLIC ADMINISTRATION\n(Administrative Theories and Management.)\nI"
+            app:layout_constraintEnd_toStartOf="@+id/button29"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button26" />
+        <Button
+            android:id="@+id/button29"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="PUBLIC ADMINISTRATION\n(Public Administration in India.)\nII"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button28"
+            app:layout_constraintTop_toBottomOf="@+id/button27" />
+        <Button
+            android:id="@+id/button30"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="PUBLIC ADMINISTRATION\n(Comparative Public Administration)"
+            app:layout_constraintEnd_toStartOf="@+id/button31"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button28" />
+        <Button
+            android:id="@+id/button31"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="-----"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button30"
+            app:layout_constraintTop_toBottomOf="@+id/button29" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

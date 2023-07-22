@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/drawable-v24/ic_password.xml" value="0.2638888888888889" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/drawable/a5.xml" value="0.2703125" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/drawable/ic_about.xml" value="0.24537037037037038" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/drawable/ic_arrow_forward.xml" value="0.26615384615384613" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/drawable/ic_enter_arrow.xml" value="0.26615384615384613" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/drawable/ic_no_enternet.xml" value="0.25833333333333336" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/drawable/ic_password.xml" value="0.2638888888888889" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/drawable/ic_phone.xml" value="0.2638888888888889" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/drawable/ic_phone01.xml" value="0.2638888888888889" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/drawable/ic_phone3.xml" value="0.2638888888888889" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout-land/activity_profile.xml" value="0.32760416666666664" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout-sw600dp/activity_profile.xml" value="0.536" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout-v21/activity_ba.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout-v21/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_about__us.xml" value="0.4" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_b_a_file_main.xml" value="0.264" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_b_b_a_file_main.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_b_c_a_file_main.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_b_s_c_file_main.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ba.xml" value="0.264" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ba_first_18.xml" value="0.19349845201238391" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ba_first_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ba_first_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ba_second_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ba_second_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ba_second_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ba_third_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ba_third_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ba_third_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bba.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bba_first_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bba_first_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bba_first_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bba_second19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bba_second_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bba_second_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bba_third_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bba_third_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bba_third_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bca.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bca_first_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bca_first_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bca_first_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bca_second_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bca_second_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bca_second_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bca_third_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bca_third_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bca_third_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bcom.xml" value="0.24814814814814815" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bcom_first_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bcom_first_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bcom_first_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bcom_second_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bcom_second_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bcom_second_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bcom_third_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bcom_third_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bcom_third_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bsc.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bsc_first_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bsc_first_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bsc_first_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bsc_second_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bsc_second_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bsc_second_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bsc_third_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bsc_third_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_bsc_third_20.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_check.xml" value="0.264" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_check2.xml" value="0.4" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_connect_with__us.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_first.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_fourth.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_m_a_file_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_m_c_o_m_file_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_m_s_c_file_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ma.xml" value="0.24814814814814815" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ma_first_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ma_first_19.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ma_first_20.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ma_second_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ma_second_19.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_ma_second_20.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_manage_activ.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_manage_navigation_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_mcom.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_mcom_first_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_mcom_first_19.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_mcom_first_20.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_mcom_second_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_mcom_second_19.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_mcom_second_20.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_msc.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_msc_first_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_msc_first_19.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_msc_second_18.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_msc_second_19.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_msc_second_20.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_no_internet.xml" value="0.264" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_opinion.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_register__help.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_second.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_term__condition.xml" value="0.536" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_third.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_update_email_address.xml" value="0.25416666666666665" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/activity_update_password.xml" value="0.264" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/fragment_create_frgs.xml" value="0.264" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/fragment_forget_frgs.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/fragment_login_frgs.xml" value="0.2" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/fragment_more_frgs.xml" value="0.264" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/fragment_otp_frgs.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/fragment_papers_frgs.xml" value="0.264" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/fragment_syllabus_frgs.xml" value="0.264" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/pdf_all_in_one.xml" value="0.21388888888888888" />
+        <entry key="..\:/program/AUSolution800772907/app/src/main/res/layout/practicalfile_all_in_one.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

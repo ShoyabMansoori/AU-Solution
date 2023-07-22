@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a3"
+    tools:context=".Sallabus_courses.Bba">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadobackground"
+        android:paddingBottom="100dp">
+        <TextView
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1st Year"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@drawable/a001"
+            android:elevation="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="3dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center_horizontal" />
+        <Button
+            android:id="@+id/First_2020"
+            style="@style/Papers_YearPapers_button"
+            android:elevation="10dp"
+            android:text="2020 All Papers"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button10" />
+        <Button
+            android:id="@+id/First_2019"
+            style="@style/Papers_YearPapers_button"
+            android:elevation="10dp"
+            android:text="2019 All Papers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/First_2020" />
+        <Button
+            android:id="@+id/First_2018"
+            style="@style/Papers_YearPapers_button"
+            android:elevation="10dp"
+            android:text="2018 All Papers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/First_2019" />
+        <Button
+            android:id="@+id/First_web"
+            style="@style/Papers_YearPapers_button"
+            android:elevation="10dp"
+            android:text="@string/BA1"
+            android:textColor="@color/logo_colour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/First_2018" />
+        <View
+            android:id="@+id/divider10"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/logo_colour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/First_web" />
+        <TextView
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/a001"
+            android:elevation="10dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="3dp"
+            android:text="2nd Year"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider10" />
+        <Button
+            android:id="@+id/Second_2020"
+            style="@style/Papers_YearPapers_button"
+            android:elevation="10dp"
+            android:text="2020 All Papers"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button11" />
+        <Button
+            android:id="@+id/Second_2019"
+            style="@style/Papers_YearPapers_button"
+            android:elevation="10dp"
+            android:text="2019 All Papers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Second_2020" />
+        <Button
+            android:id="@+id/Second_2018"
+            style="@style/Papers_YearPapers_button"
+            android:elevation="10dp"
+            android:text="2021 All Papers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Second_2019" />
+        <Button
+            android:id="@+id/Second_web"
+            style="@style/Papers_YearPapers_button"
+            android:elevation="10dp"
+            android:text="@string/BA1"
+            android:textColor="@color/logo_colour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Second_2018" />
+        <View
+            android:id="@+id/divider11"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/logo_colour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Second_web" />
+        <TextView
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/a001"
+            android:elevation="10dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="3dp"
+            android:text="3rd Year"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider11" />
+        <Button
+            android:id="@+id/Third_2020"
+            style="@style/Papers_YearPapers_button"
+            android:elevation="10dp"
+            android:text="2020 All Papers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button12" />
+        <Button
+            android:id="@+id/Third_2019"
+            style="@style/Papers_YearPapers_button"
+            android:elevation="10dp"
+            android:text="2019 All Papers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Third_2020" />
+        <Button
+            android:id="@+id/Third_2018"
+            style="@style/Papers_YearPapers_button"
+            android:elevation="10dp"
+            android:text="2021 All Papers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Third_2019" />
+        <Button
+            android:id="@+id/Third_web"
+            style="@style/Papers_YearPapers_button"
+            android:elevation="10dp"
+            android:text="@string/BA1"
+            android:textColor="@color/logo_colour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Third_2018" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Navigation.Papers_frgs">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/paper_background"
+        android:paddingBottom="80dp">
+
+        <Button
+            android:id="@+id/button131"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/paytm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/Paytm_cash"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:background="#00000000"
+            app:layout_constraintBottom_toBottomOf="@+id/button131"
+            app:layout_constraintEnd_toEndOf="@+id/button131"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/button131"
+            app:layout_constraintTop_toTopOf="@+id/button131"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/previous_papers"
+            android:drawableLeft="@drawable/ic_paper"
+            android:drawablePadding="10dp"
+            android:elevation="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="12dp"
+            android:text="Previous Papers"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button131" />
+
+        <HorizontalScrollView
+            android:id="@+id/paper_scroll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/previous_papers_01"
+            android:elevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView39"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/previous_papers_01"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <ImageView
+                    android:id="@+id/ba_papers"
+                    style="@style/one"
+                    app:srcCompat="@drawable/ba_papers" />
+                <ImageView
+                    android:id="@+id/bsc_papers"
+                    style="@style/one"
+                    app:srcCompat="@drawable/bsc_papers" />
+                <ImageView
+                    android:id="@+id/bcom_papers"
+                    style="@style/one"
+                    app:srcCompat="@drawable/bcom_papers" />
+                <ImageView
+                    android:id="@+id/bba_papers"
+                    style="@style/one"
+                    app:srcCompat="@drawable/bba_papers" />
+                <ImageView
+                    android:id="@+id/bca_papers"
+                    style="@style/one"
+                    app:srcCompat="@drawable/bca_papers" />
+                <ImageView
+                    android:id="@+id/ma_papers"
+                    style="@style/one"
+                    app:srcCompat="@drawable/ma_papers" />
+                <ImageView
+                    android:id="@+id/msc_papers"
+                    style="@style/one"
+                    app:srcCompat="@drawable/msc_papers" />
+                <ImageView
+                    android:id="@+id/mcom_papers"
+                    style="@style/one"
+                    app:srcCompat="@drawable/mcom_papers" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/previous_papers"
+            android:drawableLeft="@drawable/ic_e_notes"
+            android:drawablePadding="10dp"
+            android:elevation="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="12dp"
+            android:text="Practical Files"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/paper_scroll" />
+
+        <HorizontalScrollView
+            android:id="@+id/paper_scroll2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/previous_papers_01"
+            android:elevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView40"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/previous_papers_01"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <ImageView
+                    android:id="@+id/ba_file"
+                    style="@style/one"
+                    app:srcCompat="@drawable/ba_file" />
+                <ImageView
+                    android:id="@+id/bsc_file"
+                    style="@style/one"
+                    app:srcCompat="@drawable/bsc_file" />
+                <ImageView
+                    android:id="@+id/bba_file"
+                    style="@style/one"
+                    app:srcCompat="@drawable/bba_file" />
+                <ImageView
+                    android:id="@+id/bca_file"
+                    style="@style/one"
+                    app:srcCompat="@drawable/bca_file" />
+                <ImageView
+                    android:id="@+id/ma_file"
+                    style="@style/one"
+                    app:srcCompat="@drawable/ma_file" />
+                <ImageView
+                    android:id="@+id/msc_file"
+                    style="@style/one"
+                    app:srcCompat="@drawable/msc_file" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/previous_papers"
+            android:drawableLeft="@drawable/ic_ebook"
+            android:drawablePadding="10dp"
+            android:elevation="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="12dp"
+            android:text="E-Notes (Up Comming)"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/paper_scroll2" />
+
+        <HorizontalScrollView
+            android:id="@+id/paper_scroll3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/previous_papers_01"
+            android:elevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView41"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/previous_papers_01"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <ImageView
+                    android:id="@+id/ba_notes"
+                    style="@style/one"
+                    app:srcCompat="@drawable/ba_notes" />
+                <ImageView
+                    android:id="@+id/bsc_notes"
+                    style="@style/one"
+                    app:srcCompat="@drawable/bsc_notes" />
+                <ImageView
+                    android:id="@+id/bcom_notes"
+                    style="@style/one"
+                    app:srcCompat="@drawable/bcom_notes" />
+                <ImageView
+                    android:id="@+id/bba_notes"
+                    style="@style/one"
+                    app:srcCompat="@drawable/bba_notes" />
+                <ImageView
+                    android:id="@+id/bca_notes"
+                    style="@style/one"
+                    app:srcCompat="@drawable/bca_notes" />
+                <ImageView
+                    android:id="@+id/ma_notes"
+                    style="@style/one"
+                    app:srcCompat="@drawable/ma_nates" />
+                <ImageView
+                    android:id="@+id/msc_notes"
+                    style="@style/one"
+                    app:srcCompat="@drawable/msc_notes" />
+                <ImageView
+                    android:id="@+id/mcom_notes"
+                    style="@style/one"
+                    app:srcCompat="@drawable/mcom_notes" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/note_line"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            android:elevation="10dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Only Kota University content is available in this application. AU Solution app is not an official application of Kota University."
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/paper_scroll3" />
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:background="#00000000"
+            android:elevation="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="12dp"
+            android:text="Thank You For Visiting"
+            android:textColor="#8F8F8F"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/note_line"
+            tools:ignore="RtlCompat" />
+        <View
+            android:id="@+id/divider18"
+            android:layout_width="80dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="7dp"
+            android:background="#8F8F8F"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView44" />
+        <View
+            android:id="@+id/divider19"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#8F8F8F"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider18" />
+        <View
+            android:id="@+id/divider20"
+            android:layout_width="40dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#8F8F8F"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider19" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

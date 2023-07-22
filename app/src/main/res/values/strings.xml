@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">AU Solution</string>
+    <string name="title_activity_main01">AU Solution</string>
+    <string name="title_home">Papers</string>
+    <string name="title_dashboard">Syllabus</string>
+    <string name="title_notifications">More</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Website papers 2017,2016,....-->
+    <!-- BA papers -->
+    <string name="BA1"><a href="https://www.ausolution.in/p/ba.html">2018,...,2016 Download Papers</a></string>
+    <!-- B.Sc. papers -->
+    <string name="B.sc1"><a href="https://www.ausolution.in/p/bsc-papers.html">2018,...,2016 Download Papers</a></string>
+    <!-- B.Com papers-->
+    <string name="B.Com1"><a href="https://www.ausolution.in/p/bcom-papers.html">2018,...,2016 Download Papers</a></string>
+    <!-- MA papers-->
+    <string name="MA1"><a href="https://www.uok.ac.in/syllabus/609_M.A.%20-%20Drawing%20&amp;%20Painting.pdf">2018,...,2016 Download Papers</a></string>
+    <!-- M.SC. papers -->
+    <string name="M.Sc1"><a href="https://www.uok.ac.in/syllabus/817_M.Sc.%20(Maths)%20Annual%20scheme.pdf">2018,...,2016 Download Papers</a></string>
+    <!-- M.Com papers-->
+    <string name="M.Com1"><a href="https://www.uok.ac.in/syllabus/831_M.Com.%20(ABST).pdf">2018,...,2016 Download Papers</a></string>
+    <!-- BBA papers-->
+    <string name="BBA1"><a href="https://www.uok.ac.in/syllabus/834_BBA.pdf">2018,...,2016 Download Papers</a></string>
+    <!-- BCA papers-->
+    <string name="BCA1"><a href="https://www.uok.ac.in/syllabus/801_BCA.pdf">2018,...,2016 Download Papers</a></string>
+
+    <!-- Connect with us -->
+    <string name="website"><a href="https://www.ausolution.in/">Web site</a></string>
+    <string name="youtube"><a href="https://www.youtube.com/channel/UCu3LnBoFq3Oni0ib4S18DBA/?guided_help_flow=5">YouTube Channel</a></string>
+    <string name="instagram"><a href="https://www.instagram.com/au_solution/">Instagram Page</a></string>
+    <string name="facebook"><a href="https://www.facebook.com/AU-Solution-102196875123528">Facebook Page</a></string>
+    <string name="applink"><a href="https://play.google.com/store/apps/details?id=com.ausolutionkota.ausolution">Give your ratings</a></string>
+    <string name="UOK_Syllabus"><a href="https://www.uok.ac.in/Syllabus-2020">Click</a></string>
+
+    <!-- Term and condition -->
+    <string name="final_term0">AU Solution Terms &amp; Conditions</string>
+    <string name="final_term01">Please read the following terms and conditions carefully as it sets out the terms of a between you (the reader) and AU Solution.</string>
+    <string name="final_term02">Last update: October 01, 2021</string>
+    <string name="final_term1">By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to 3 S Group.</string>
+    <string name="final_term2">3 S Group is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.</string>
+    <string name="final_term3">The AU Solution app stores and processes personal data that you have provided to us, in order to provide our Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the AU Solution app won’t work properly or at all.</string>
+    <string name="final_term4">The app does use third party services that declare their own Terms and Conditions.</string>
+    <string name="final_term5">Link to Terms and Conditions of third party service providers used by the app</string>
+    <string name="final_term6"> Google Play Services\n AdMob\n Google Analytics for Firebase\n Firebase Crashlytics</string>
+    <string name="final_term7">You should be aware that there are certain things that 3 S Group will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but 3 S Group cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.</string>
+    <string name="final_term8">If you’re using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing the app, or other third party charges. In using the app, you’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you’re using the app, please be aware that we assume that you have received permission from the bill payer for using the app.</string>
+    <string name="final_term9">Along the same lines, 3 S Group cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service, 3 S Group cannot accept responsibility.</string>
+    <string name="final_term10">With respect to 3 S Group’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. 3 S Group accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.</string>
+    <string name="final_term11">At some point, we may wish to update the app. The app is currently available on Android – the requirements for system(and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. 3 S Group does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.</string>
+    <string name="final_term12">Changes to This Terms and Conditions</string>
+    <string name="final_term13">We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page.</string>
+    <string name="final_term14">This AU Solution app is not an official application of Kota University.</string>
+    <string name="final_term15">Some papers have been prepared by the AU solutions team, which is the data of official previous papers,Care has been taken to type it, yet it is possible to make a mistake,The typing team and the AU solution team will not be responsible for this.</string>
+    <string name="final_term16">The composing work of the book is done by computer. Care has been taken by the writer, publisher,yet it is possible to remain in error, make mistakes.The publisher, operator or proof reader will not be responsible for this.This publication or any part thereof cannot be printed for use in any form(photography, electrographic, mechanics or other forms)without the permission of the publisher.The judicial area for any complaint will be KOTA (Rajasthan).</string>
+    <string name="final_term17">These terms and conditions are effective as of 14/09/2021</string>
+    <string name="final_term18">Contact Us</string>
+    <string name="final_term19">If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us at sssmab@gmail.com.</string>
+    <string name="final_term20">This Terms and Conditions page was generated by App Privacy Policy Generator</string>
+
+    <!-- About us -->
+    <string name="abou1">> We could provide easier and better education. Help in exam preparation and learn easy</string>
+    <string name="abou2">> Reaching out to all university students in India.</string>
+    <string name="abou3">> Provide solutions for students of all universities, With zero mistake.</string>
+    <string name="abou4">> To the college students who have given us the papers.</string>
+
+    <string name="About_us01">AU Solution About us</string>
+    <string name="About_us0">Hello Friends Welcome To AU Solution.</string>
+    <string name="About_us1">This AU Solution app is not an official application of Kota University.</string>
+    <string name="About_us2">AU Solution is a Professional Education  Platform. Here we will provide you only interesting content, which you will like very much.</string>
+    <string name="About_us3">We are dedicated to providing you the best of Education , with a focus on dependability and Provide papers, Practical file, E-Notes.</string>
+    <string name="About_us4">We are working to turn our passion for Education  into a booming online apps or website. We hope you enjoy our Education  as much as we enjoy offering them to you.</string>
+    <string name="About_us5">AU Solution will keep posting more important posts on app or Website for all of you. Please give your support and love.</string>
+    <string name="About_us6">Thanks For Visiting Our AU Solution app.</string>
+    <string name="About_us7">Thanks For Visiting Our AU Solution app.</string>
+
+    <string name="title_activity_main_navigation">MainActivity</string>
+    <string name="title_activity_buttom_nav">MainActivity</string>
+    <!-- Compulsory Subject Name -->
+    <string name="Hindi_Compulsory">Hindi\nCompulsory</string>
+    <string name="English_Compulsory">English\nCompulsory</string>
+    <string name="Environmental_Studies">Environmental\nStudies</string>
+    <string name="Computer_Compulsory">Computer\nCompulsory</string>
+    <!-- BA Subject Name -->
+    <string name="EconomicsI">Economics\nI</string>
+    <string name="EconomicsII">Economics\nII</string>
+    <string name="Home_ScienceI">Home Science\nI</string>
+    <string name="Home_ScienceII">Home Science\nII</string>
+    <string name="GeographyI">Geography\nI</string>
+    <string name="GeographyII">Geography\nII</string>
+    <string name="political_scienceI">Political\nscience\nI</string>
+    <string name="political_scienceII">Political\nscience\nII</string>
+    <string name="SociologyI">Sociology\nI</string>
+    <string name="SociologyII">Sociology\nII</string>
+    <string name="English_LiteratureI">English\nLiterature\nI</string>
+    <string name="English_LiteratureII">English\nLiterature\nII</string>
+    <string name="Hindi_LiteratureI">Hindi\nLiterature\nI</string>
+    <string name="Hindi_LiteratureII">Hindi\nLiterature\nII</string>
+    <string name="DrawingI">Drawing\nI</string>
+    <string name="DrawingII">Drawing\nII</string>
+    <string name="SanskritI">Sanskrit\nI</string>
+    <string name="SanskritII">Sanskrit\nII</string>
+    <string name="HistoryI">History\nI</string>
+    <string name="HistoryII">History\nII</string>
+    <string name="Public_administrationI">Public\nadministration\nI</string>
+    <string name="Public_administrationII">Public\nadministration\nII</string>
+    <string name="UrduI">Urdu\nI</string>
+    <string name="UrduII">Urdu\nII</string>
+    <!-- Bsc Subject Name -->
+    <string name="physicsI">physics\nI</string>
+    <string name="physicsII">physics\nII</string>
+    <string name="physicsIII">physics\nIII</string>
+    <string name="MathematicsI">Mathematics\nI</string>
+    <string name="MathematicsII">Mathematics\nII</string>
+    <string name="MathematicsIII">Mathematics\nIII</string>
+    <string name="ChemistryI">Chemistry\nI</string>
+    <string name="ChemistryII">Chemistry\nII</string>
+    <string name="ChemistryIII">Chemistry\nIII</string>
+    <string name="ZoologyI">Zoology\nI</string>
+    <string name="ZoologyII">Zoology\nII</string>
+    <string name="ZoologyIII">Zoology\nIII</string>
+    <string name="BotanyI">Botany\nI</string>
+    <string name="BotanyII">Botany\nII</string>
+    <string name="BotanyIII">Botany\nIII</string>
+    <!-- BCom Subject Name -->
+    <!-- BCA Subject Name -->
+    <!-- BBA Subject Name -->
+
+    <string name="tendp">10dp</string>
+    <string name="fiftendp">15dp</string>
+    <string name="twentydp">20dp</string>
+    <string name="twentyfivrdp">25dp</string>
+    <string name="eightendp">18dp</string>
+    <string name="_1st_year">1st Year</string>
+    <string name="_2020_all_papers">2020 All Papers</string>
+    <string name="made_in_india">MADE IN INDIA</string>
+</resources>

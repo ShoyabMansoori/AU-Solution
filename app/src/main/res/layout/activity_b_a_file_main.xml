@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UG_practical_files.BA_file_main">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/Subject_Name_Layout">
+        <Button
+            android:id="@+id/button111"
+            style="@style/Files_YearName_TextView"
+            android:text="BA 1 year files"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button0111"
+            style="@style/Files_YearName_TextView"
+            android:text="BA 2 year files"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button120" />
+
+        <Button
+            android:id="@+id/button0112"
+            style="@style/Files_YearName_TextView"
+            android:text="BA 3 year files"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button122" />
+        <Button
+            android:id="@+id/button120"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="40dp"
+            android:rotationY="6"
+            android:visibility="invisible"
+            android:text="Drawing"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/button121"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button111" />
+        <Button
+            android:id="@+id/button121"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:paddingLeft="40dp"
+            android:rotationY="6"
+            android:text="C\nLanguage"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:visibility="invisible"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button120"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button120"
+            app:layout_constraintTop_toTopOf="@+id/button120" />
+        <Button
+            android:id="@+id/button122"
+            style="@style/File"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ba_file_drawing"
+            app:layout_constraintEnd_toStartOf="@+id/button123"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button0111" />
+        <Button
+            android:id="@+id/button123"
+            style="@style/File"
+            android:paddingLeft="40dp"
+            android:rotationY="6"
+            android:text="Data\nStructure"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:visibility="invisible"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button122"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button122"
+            app:layout_constraintTop_toTopOf="@+id/button122"
+            app:layout_constraintVertical_bias="0.0" />
+        <Button
+            android:id="@+id/button124"
+            style="@style/File"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ba_file_drawing"
+            app:layout_constraintEnd_toStartOf="@+id/button125"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button0112" />
+        <Button
+            android:id="@+id/button125"
+            style="@style/File"
+            android:paddingLeft="40dp"
+            android:rotationY="6"
+            android:text="Web\nTechnlogy"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:visibility="invisible"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button124"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button124"
+            app:layout_constraintTop_toTopOf="@+id/button124"
+            app:layout_constraintVertical_bias="0.0" />
+        <Button
+            android:id="@+id/button126"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="40dp"
+            android:rotationY="6"
+            android:visibility="invisible"
+            android:text="Visual\nProgramming"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/button127"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button124" />
+        <Button
+            android:id="@+id/button127"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:paddingLeft="40dp"
+            android:rotationY="6"
+            android:text="Visual\nProgramming\nProject"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/button126"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button126"
+            app:layout_constraintTop_toTopOf="@+id/button126"
+            app:layout_constraintVertical_bias="0.0" />
+        <Button
+            android:id="@+id/button128"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="40dp"
+            android:rotationY="6"
+            android:text="Visual\nProgramming\nProject"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button126" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

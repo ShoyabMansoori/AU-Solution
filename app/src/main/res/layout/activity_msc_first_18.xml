@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acti_Pg_Paper.Msc_first_18">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/Subject_Name_Layout">
+        <Button
+            android:id="@+id/button12"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Chemistry\n(Inorganic Chemistry)\nI"
+            app:layout_constraintEnd_toStartOf="@+id/button13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button13"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Chemistry\n(Organic Chemistry)\nII"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button12"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/button14"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Chemistry\n(Physical Chemistry)\nIII"
+            app:layout_constraintEnd_toStartOf="@+id/button15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button12" />
+        <Button
+            android:id="@+id/button15"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Chemistry\n(Group Theory &amp; Spectroscopy)\nIV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button14"
+            app:layout_constraintTop_toBottomOf="@+id/button13" />
+        <Button
+            android:id="@+id/button16"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Chemistry\n((A) Mathematics for chemists Or Biology for Chemists)\nV"
+            app:layout_constraintEnd_toStartOf="@+id/button17"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button14" />
+        <Button
+            android:id="@+id/button17"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Chemistry\n((B)  Computers for Chemists)\nV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button16"
+            app:layout_constraintTop_toBottomOf="@+id/button15" />
+        <Button
+            android:id="@+id/button18"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Mathemtics\n(Advanced Algebra)\nI"
+            app:layout_constraintEnd_toStartOf="@+id/button19"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button16" />
+        <Button
+            android:id="@+id/button19"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Mathematics\n(Real and Complex Analysis)\nII"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button18"
+            app:layout_constraintTop_toBottomOf="@+id/button17" />
+        <Button
+            android:id="@+id/button20"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Mathematics\n(Partial Differential Equation)\nIII"
+            app:layout_constraintEnd_toStartOf="@+id/button21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button18" />
+        <Button
+            android:id="@+id/button21"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Mathematics\n(Special functions and Integral Equations)\nIV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button20"
+            app:layout_constraintTop_toBottomOf="@+id/button19" />
+        <Button
+            android:id="@+id/button22"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Mathematics\n(Discrete Mathematics and Numerical Analysis)\nV"
+            app:layout_constraintEnd_toStartOf="@+id/button23"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button20" />
+        <Button
+            android:id="@+id/button23"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="------"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button22"
+            app:layout_constraintTop_toBottomOf="@+id/button21" />
+        <Button
+            android:id="@+id/button24"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Physics\n(Classical Mechanics and Mathematical Methods in Physics)\nI"
+            app:layout_constraintEnd_toStartOf="@+id/button25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button22" />
+        <Button
+            android:id="@+id/button25"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Physics\n(Classical Electrodynamics)\nII"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button24"
+            app:layout_constraintTop_toBottomOf="@+id/button23" />
+        <Button
+            android:id="@+id/button26"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Physics\n(Quantum Mechanics and Atomic &amp; Molecular Physics)\nIII"
+            app:layout_constraintEnd_toStartOf="@+id/button27"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button24" />
+        <Button
+            android:id="@+id/button27"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Physics\n(Electronics, Numerical Methods and Computer Programming Practical)\nIV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button26"
+            app:layout_constraintTop_toBottomOf="@+id/button25" />
+        <Button
+            android:id="@+id/button28"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Zoology\n(Invertebrate &amp; Principles of animal taxonomy)\nI"
+            app:layout_constraintEnd_toStartOf="@+id/button29"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button26" />
+        <Button
+            android:id="@+id/button29"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="Zoology\n(Biological Chemistry,\nImmunology &amp; Physiology)\nII"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button28"
+            app:layout_constraintTop_toBottomOf="@+id/button27" />
+        <Button
+            android:id="@+id/button30"
+            style="@style/Course_SubjectName_TextView1"
+            android:text="Zoology\n(Evolution &amp; Statistical Methods in Biology)\nIII"
+            app:layout_constraintEnd_toStartOf="@+id/button31"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button28" />
+        <Button
+            android:id="@+id/button31"
+            style="@style/Course_SubjectName_TextView2"
+            android:text="-----"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button30"
+            app:layout_constraintTop_toBottomOf="@+id/button29" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
