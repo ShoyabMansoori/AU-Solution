@@ -16,6 +16,8 @@ Table of Contents:
 ☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️☘️
 ------------------------------------------------------------
 
+play Sore live link: https://play.google.com/store/apps/details?id=com.ausolutionkota.ausolution&hl=en-IN
+
 1. About:
    The AU Solution Android Education Application is a comprehensive mobile app aimed at providing educational resources to students of various universities. The app is designed to facilitate easy access to academic content, including previous papers, notes, and the latest university news. By leveraging modern technologies and user-friendly design, AU Solution aims to enhance the learning experience for students and assist them in achieving academic excellence.
 
